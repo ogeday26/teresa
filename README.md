@@ -1,12 +1,8 @@
-
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-
+![MIT License][license-shield]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -138,11 +134,50 @@ Contributions are what make the open source community such an amazing place to b
 
 
 
-<!-- LICENSE -->
-## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+# Supporters
 
+## Stargazers
+
+[![](https://reporoster.com/stars/ogeday26/teresa)](https://github.com/ogeday26/teresa/stargazers)
+
+## Forks
+
+[![](https://reporoster.com/forks/ogeday26/teresa)](https://github.com/ogeday26/teresa/fork)
+
+# Thanks
+
+## Stars
+
+[![Stargazers over time](https://starchart.cc/ogeday26/teresa.svg)](https://starchart.cc/ogeday26/teresa)
+# License
+```
+MIT License
+
+Copyright (c) 2021 Readme Template Authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
+
+# Status
+
+This project is currently being maintained. And Will Be Maintained. If You Like This Project And Want This Project To Never Exhaust. Please Consider Donating.
 
 
 <!-- CONTACT -->
@@ -151,3 +186,15 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Halil Safa SAĞLIK - [@SafaSaglik](https://twitter.com/SafaSaglik) - safa@rubiklabs.com
 
 Project Link: [https://github.com/ogeday26/teresa](https://github.com/ogeday26/teresa)
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/ogeday26/teresa.svg?style=for-the-badge
+[contributors-url]: https://github.com/ogeday26/teresa/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/ogeday26/teresa.svg?style=for-the-badge
+[forks-url]: https://github.com/ogeday26/teresa/network/members
+[stars-shield]: https://img.shields.io/github/stars/ogeday26/teresa.svg?style=for-the-badge
+[stars-url]: https://github.com/ogeday26/teresa/stargazers
+[issues-shield]: https://img.shields.io/github/issues/ogeday26/teresa.svg?style=for-the-badge
+[issues-url]: https://github.com/ogeday26/teresa/issues
+[license-shield]: https://img.shields.io/github/license/ogeday26/teresa.svg?style=for-the-badge
