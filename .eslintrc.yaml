@@ -4,7 +4,7 @@
     node: true
     mocha: true
     es6: true
-  parser: typescript-eslint-parser
+  parser: "@typescript-eslint/parser"
   parserOptions:
     sourceType: module
     ecmaFeatures: 
@@ -15,8 +15,10 @@
       - before: true
         after: true
     no-shadow: 0
+    no-unused-vars: 0
     import/no-unresolved: 0
     import/extensions: 0
+    no-console: 0
     require-yield: 0
     no-param-reassign: 0
     comma-dangle: 0

@@ -1,13 +1,13 @@
-import { Message } from "discord.js";
+import { Message } from 'discord.js'
 
 export default {
-  key: "ping",
-  description: "Returns the message delivery time.",
+  key: 'ping',
+  description: 'Returns the message delivery time.',
   method: async (message: Message, command: string, args: Array<string>) => {
     try {
-      message.reply(`Ping : **${message.client.ws.ping}ms!`);
+      message.reply(`Ping : **${message.client.ws.ping}ms!`)
     } catch (err) {
-      message.reply("The command could not be processed.");
+      message.reply('The command could not be processed.')
     }
   }
 }
