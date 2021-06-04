@@ -11,9 +11,9 @@ export default {
         message.channel.bulkDelete(+args[0]);
         return;
       }
-      message.reply("Parametre hatası!");
+      message.reply("Parameter error.");
     } catch (err) {
-      message.reply("Komut işlenemedi.");
+      message.reply("The command could not be processed.");
     }
   }
 }
