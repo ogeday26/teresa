@@ -13,8 +13,8 @@ import commands from './commands/index';
 
   client.on("message", async (message: Message) => {
     if (message.author.bot) return;
-
-    if (message.content.slice(0, +process.env.PREFIX) === process.env.PREFIX) {
+    if (message.content.slice(0, +process.env.PREFIX.length) !== process.env.PREFIX) return;
+    
       const commandBody = message.content.slice(process.env.PREFIX.length);
       const args = commandBody.split(" ");
       const command = args.shift().toLowerCase();
@@ -25,7 +25,7 @@ import commands from './commands/index';
         return;
       };
       c[0].method(message, command, args);
-    }
+    
   });
 
   client.login(process.env.DISCORD_TOKEN);
