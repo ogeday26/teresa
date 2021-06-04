@@ -6,7 +6,6 @@ import commands from './commands/index';
 
 (async () => {
   const client = new Client();
-  const reserveKeys = [];
 
   events.forEach(e => {
     client.on(e.event, e.method(client));
