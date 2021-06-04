@@ -31,7 +31,6 @@ require('dotenv').config();
   })
 
   await client.login(process.env.DISCORD_TOKEN)
-
   await cronjob(client, jobs)
 
   console.log('Bot is starting')
