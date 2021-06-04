@@ -145,6 +145,11 @@ Contributions are what make the open source community such an amazing place to b
 
 [![](https://reporoster.com/forks/ogeday26/teresa)](https://github.com/ogeday26/teresa/fork)
 
+# Thanks
+
+## Stars
+
+[![Stargazers over time](https://starchart.cc/ogeday26/teresa.svg)](https://starchart.cc/ogeday26/teresa)
 # License
 ```
 MIT License
