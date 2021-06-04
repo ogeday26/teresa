@@ -2,6 +2,8 @@ import { Client, Message } from 'discord.js'
 
 import events from './events/index'
 import commands from './commands/index'
+import cronjob from './cronjob/index'
+import jobs from './cronjob/jobs'
 
 require('dotenv').config();
 
@@ -28,6 +30,9 @@ require('dotenv').config();
     c[0].method(message, command, args)
   })
 
-  client.login(process.env.DISCORD_TOKEN)
+  await client.login(process.env.DISCORD_TOKEN)
+
+  await cronjob(client, jobs)
+
   console.log('Bot is starting')
 })()
