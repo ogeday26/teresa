@@ -1,4 +1,4 @@
-import { Message, Client } from "discord.js";
+import { Message } from "discord.js";
 
 export default {
   key: "ping",
