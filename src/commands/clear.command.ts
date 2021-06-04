@@ -10,7 +10,7 @@ export default {
         return
       }
 
-      if (args[0] && !Number.isNaN(+args[0]) && typeof +args[0] === 'number' && message.channel.type === 'text') {
+      if (args[0] && !Number.isNaN(+args[0]) && typeof +args[0] === 'number' && message.channel.type === 'text' && +args[0] <= 100) {
         message.channel.bulkDelete(+args[0])
         return
       }
