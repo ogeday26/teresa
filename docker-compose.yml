@@ -1,0 +1,18 @@
+version: "3.9"
+services: 
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes: 
+      - ./:/usr/app/
+      - /usr/app/node_modules
+    command: yarn dev
+  mongodb:
+    image: mongo
+    restart: always
+    ports: 
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: teresa
+      MONGO_INITDB_ROOT_PASSWORD: teresa
