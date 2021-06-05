@@ -4,3 +4,7 @@ export interface ScheduledMessage {
   channelName: string,
   cron: string
 }
+
+export enum Modules {
+  AUTOSAVE = 'AUTOSAVE'
+}

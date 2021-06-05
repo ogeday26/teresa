@@ -1,9 +1,12 @@
 import { Client, Message } from 'discord.js'
+import { Modules } from './types'
 
 import events from './events/index'
 import commands from './commands/index'
 import cronjob from './cronjob/index'
 import jobs from './cronjob/jobs'
+
+import Autosave from './modules/Autosave'
 
 require('dotenv').config();
 
@@ -12,6 +15,15 @@ require('dotenv').config();
 
   events.forEach((e) => {
     client.on(e.event, e.method(client))
+  })
+
+  const modules: Array<Modules> = process.env.MODULES.split(',') as unknown as Array<Modules>
+
+  modules.forEach(async (f) => {
+    if (f === Modules.AUTOSAVE) {
+      const autosave = new Autosave(client)
+      await autosave.setup()
+    }
   })
 
   client.on('message', async (message: Message) => {
@@ -31,7 +43,6 @@ require('dotenv').config();
   })
 
   await client.login(process.env.DISCORD_TOKEN)
-
   await cronjob(client, jobs)
 
   console.log('Bot is starting')
