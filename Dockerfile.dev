@@ -1,0 +1,17 @@
+FROM node:16.3-alpine
+
+WORKDIR /usr/app/
+
+COPY ./package* ./
+
+RUN npm install -g npm
+
+RUN npm i -g tsc
+
+RUN yarn
+
+ENV NODE_ENV=development
+
+COPY . .
+
+CMD ["yarn", "dev"]
