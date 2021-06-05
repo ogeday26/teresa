@@ -21,6 +21,7 @@
   "devDependencies": {
     "@types/chai": "^4.2.18",
     "@types/mocha": "5.2.7",
+    "@types/mongodb": "^3.6.17",
     "@types/node": "14.14.33",
     "@types/node-cron": "^2.0.3",
     "@types/rethinkdb": "^2.3.16",
@@ -43,6 +44,7 @@
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "8.2.0",
+    "mongodb": "^3.6.9",
     "node-cron": "^3.0.0"
   },
   "husky": {
